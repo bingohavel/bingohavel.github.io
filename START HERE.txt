@@ -1,0 +1,31 @@
+BINGO HAVEL — COMPLETE WEBSITE CODE
+
+Exported 3 October 2026, Sites version 2. Includes the two-column Work layout.
+
+The entire site is static HTML, CSS and JavaScript. No build or dependency installation is required.
+
+docs/ — complete deployable website
+docs/index.html — landing page
+docs/work.html and docs/work/index.html — Work overview (keep both copies in sync)
+docs/work/ — individual project pages
+docs/about.html — About page
+docs/project-index.html — project index
+docs/assets/ — all 492 images, videos, fonts, styles and scripts
+.openai/hosting.json — existing Sites project association; optional for hosting elsewhere
+
+TO PREVIEW LOCALLY
+Run: python3 preview.py
+Then open http://127.0.0.1:4173
+Stop with Ctrl+C. Python 3 must be installed. Opening HTML directly by double-clicking is not sufficient because the website uses root-relative links.
+
+TO HOST ELSEWHERE
+Publish the contents of docs as the public website. Configure the host to serve HTML files at extensionless URLs, such as /about and /work/freizeitwelt.
+
+This export contains the original Webflow-generated styles and interaction scripts locally; no Webflow hosting is required. It includes all website source files in the current project, but not Git history, credentials or the Webflow Designer project.
+
+The separately organized BINGO WEB CHATGPT folder is your asset-editing library. Changes in either Desktop folder are not automatically published.
+
+HOSTING (since 3 October 2026)
+The folder dist was renamed to docs. This folder is a Git repository published with GitHub Pages
+(repository bingohavel/bingohavel.github.io, branch main, folder /docs).
+Do not put unpublished projects or private files in this folder: the repository is public.
